@@ -1,0 +1,35 @@
+$write: #FFFFFF;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+    color: $write;
+}
+.promo{
+    min-height: 960px;
+    background: url(../img/main-screen__bgc.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    &__nav{
+        margin: 0 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__menu-item{
+        display: flex;
+    }
+    &__menu{
+        margin-right: 56px;
+        
+    }
+
+}
